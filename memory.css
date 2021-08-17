@@ -1,0 +1,82 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: lightgray;
+    margin: 0
+}
+
+div.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 560pt;
+    padding: 0 2em 2em;
+    background-image: url(images/brushedmetal.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12pt;
+    border-style: outset;
+}
+#header {display: flex;}
+#new_game {float: right; margin-left: auto;}
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+    color: rgb(73, 73, 73);
+    margin-bottom: .5em;
+    text-shadow: 2pt 2pt 2pt gainsboro;
+}
+
+main {
+    border-style: inset;
+}
+
+label {
+    float: left;
+    width: 8em;
+}
+
+input,
+select {
+    width: 8em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+header p {
+    margin: 0 2em 1em 0;
+}
+
+header p {
+    float: left;
+    margin-left: 1em;
+}
+
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.collapseforgame {
+    display: none;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 3em;
+    height: fit-content;
+    width: 100%;
+}
+.grid p {text-align: center;
+margin: auto;}
